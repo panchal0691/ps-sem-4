@@ -1,0 +1,11 @@
+
+class Solution:
+    def segregate0and1(self, arr, n):
+        # code here
+        arr =[0,0,1,1,0]
+        N = len(arr())
+        
+        for i in range(arr())
+            for j in range(arr())
+                
+
