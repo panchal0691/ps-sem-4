@@ -1,0 +1,8 @@
+class Solution:
+    def findPair(self, arr, L,N):
+        if N == 0 and L == len(set(arr)):
+            return False
+        for i in arr:
+            if abs(N-i) in arr:
+                return True
+        return False
