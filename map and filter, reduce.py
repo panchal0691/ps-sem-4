@@ -32,3 +32,19 @@ print(mylist)
 enter power:4
 [4096, 130321, 6561, 13845841, 234256, 1185921, 1336336, 20736, 8503056, 12960000]
 [4096, 130321, 6561, 13845841, 234256, 1185921, 1336336, 20736, 8503056, 12960000]
+
+
+
+
+# Reduce Functions
+
+nums = [12,18,24,30,36,48]
+
+from functools import reduce 
+
+num = reduce(lambda x,y: y-x , nums)
+print(num)
+
+
+# Output
+24
